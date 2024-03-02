@@ -1,0 +1,53 @@
+.homepage-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 4rem;
+    margin: 120px auto;
+}
+.homepage-h3{
+   font-size: 40px;
+   width: 40%;
+   text-align: center;
+}
+.homepage-p{
+margin-top: 1rem;
+font-size: 20px;
+font-weight: 300;
+color: rgb(246, 246, 246);
+}
+.homepage-component{
+    
+margin-top: 1.5rem;
+}
+@media screen and (max-width: 600px){
+    .homepage-container{
+        padding: 2rem;
+        margin: 80px auto;
+    }
+    .homepage-h3{
+        font-size: 20px;
+        width: 80%;
+     }
+     .homepage-p{
+        font-size: 15px;
+    }
+   
+}
+
+
+@media screen and (max-width: 1024px){
+    .homepage-container{
+        padding: 3rem;
+        margin: 100px auto;
+    }
+    .homepage-h3{
+        font-size: 20px;
+        width: 80%;
+     }
+     .homepage-p{
+        font-size: 15px;
+    }
+}

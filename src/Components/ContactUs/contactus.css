@@ -1,0 +1,102 @@
+.contactus-container{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+}
+.contactus-p{
+    font-size: 17px;
+    color: white;
+    font-weight: 300;
+}
+.contactus-function{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+}
+
+.contactus-input input{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    width: 400px;
+    height: 52px;
+    border-radius: 0.1rem 0 0 0.1rem;
+}
+
+.contactus-btn button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem;
+    width: 250px;
+    height: 52px;
+    border-radius: 0 0.1rem 0.1rem 0;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactus-btn p{
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+.contactus-icon{
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    .contactus-container{
+        width: 100%;
+    }
+    .contactus-p{
+        font-size: 10px;
+    }
+    .contactus-input input{
+        width: 200px;
+        height: 32px;
+    }
+    
+    .contactus-btn button{
+        width: 100px;
+        height: 32px;
+    }
+    .contactus-btn p{
+        font-size: 8px;
+    }
+    .contactus-icon{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+  .contactus-container{
+        width: 100%;
+    }
+    .contactus-p{
+        font-size: 10px;
+    }
+    .contactus-input input{
+        width: 200px;
+        height: 32px;
+    }
+    
+    .contactus-btn button{
+        width: 100px;
+        height: 32px;
+    }
+    .contactus-btn p{
+        font-size: 8px;
+    }
+    .contactus-icon{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,38 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem;
+}
+
+.navbar-logo{
+    margin-left: 5rem;
+    color: white;
+}
+.navbar-signin{
+    margin-right: 5rem;
+}
+.navbar-signin button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    width: 90px;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: 100;
+}
+@media screen and (max-width: 600px){
+    .navbar-logo{
+        margin-left: 2rem;
+    }
+    .navbar-signin{
+        margin-right: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+  
+}
